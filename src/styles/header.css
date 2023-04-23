@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+    padding: 20px;
+    gap: 10px;
+   
+}
+.header button{
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px;
+}
+.header button:hover{
+    background-color: lightblue;
+    cursor: pointer;
+}
